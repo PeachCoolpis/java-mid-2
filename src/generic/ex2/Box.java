@@ -1,11 +1,8 @@
-package genegic.ex1;
+package generic.ex2;
 
-public class GenericBox<T> {
-    private T value;
+public class Box<T> {
     
-    public GenericBox(T value) {
-        this.value = value;
-    }
+    private T value;
     
     public T getValue() {
         return value;
